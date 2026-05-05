@@ -22,7 +22,7 @@ app.use(cors({
 
 // Routes
 app.get('/', (req, res) => {
-    res.send('Coinbase Clone API is running...');
+    res.send('API is running');
 });
 
 app.use('/api/auth', authRoutes);
